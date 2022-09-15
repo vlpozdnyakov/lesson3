@@ -4,10 +4,11 @@ public class Complex {
     double im;
 
     public static Complex sum(Complex a, Complex b) {
-        Complex c = new Complex();
-        c.re = a.re + b.re;
-        c.im = a.im + b.im;
-        return c;
+        Complex x = new Complex();
+        x.re = a.re + b.re;
+        x.im = a.im + b.im;
+        return x;
+        String text = "Hello";
     }
 
 }
